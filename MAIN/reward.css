@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .rewards-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .header {
+    background-color: #ffd700; /* Gold vibe for rewards */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .reward-section {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+  }
+
+  .reward-section:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+
+  .reward-label {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .reward-value {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .reward-card {
+    background-color: #fff9e5;
+    margin: 20px;
+    padding: 15px;
+    border-left: 5px solid #ffcc00;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #444;
+  }
+
+  .footer-note {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    padding: 15px;
+  }
+}

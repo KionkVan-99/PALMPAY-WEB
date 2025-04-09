@@ -1,0 +1,88 @@
+@media (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+  .welcome {
+    display: flex;
+  }
+  .firstDiv {
+    padding: 30px;
+    display: flex;
+  }
+  .firstDiv h1 {
+    font-size: 40px;
+    color: purple;
+  }
+  .secondDiv {
+    border: none;
+  }
+  .secondDiv img {
+    width: 100%;
+    filter: drop-shadow(5px 10px 10px #000);
+    border: none;
+    border-radius: 20px;
+  }
+  .thirddiv {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(114, 98, 129);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  .thirddiv h2 {
+    color: white;
+    border: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+  }
+  .thirddiv p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .forthDiv {
+    border: none;
+  }
+  .forthDiv h2 {
+    align-items: center;
+    text-align: center;
+  }
+  .forthDiv p {
+    align-items: center;
+    text-align: center;
+  }
+  .end {
+    display: flex;
+    justify-content: space-around;
+  }
+  .end button {
+    justify-content: center;
+    width: 30%;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: transform 0.5s, box-shadow 0.5s;
+  }
+  .Login {
+    background-color: purple;
+    color: white;
+    border: none;
+  }
+  .Login:hover {
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+    transform: scale(1.05);
+  }
+  .SignUp {
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+  }
+  .SignUp:hover {
+    background-color: purple;
+    color: white;
+    transform: scale(1.05);
+  }
+}
